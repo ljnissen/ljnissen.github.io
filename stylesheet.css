@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+	line-height: 40px;
+	font-family: Ubuntu, Helvetica, Arial, sans-serif;
+	background: #4d5b7d url('background.png') repeat;
+}
+
+h1, h2, h3, h4 {
+	font-weight: normal;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+#page {
+	width: 1000px;
+	background: #fff;
+	margin: 100px auto;
+	-webkit-box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+	
+}
+
+#header {
+	background: #f1f1f1;
+	font-family: 'Architects Daughter', cursive;
+	text-align: center;
+	border-bottom: 1px solid #c5c5c5;
+}
+
+#header h1 {
+	font-weight: normal;
+	font-size: 50px;
+	padding: 10px 0px;
+	text-shadow: 0px 1px 0px #fff;
+	margin-top: 0px;
+}
+
+#headerbutton {
+	color: #000;
+	font-weight: normal;
+	font-size: 24px;
+	padding: 20px 0px 25px 0px;
+	text-shadow: 0px 1px 0px #fff;
+	margin-top: 0px;
+}
+
+#headerbutton:hover {
+	color: #fff;
+}
+
+
+a:link {
+
+	padding: 20px 0px;
+	color: #1f3b8c;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #757474;
+}
+
+a:hover {
+	color: #4e5668;
+}
+
+
+
+#content {
+	width: 900px;
+	margin: 40px 50px 40px 50px;
+	color: #333;
+	text-shadow: 0px 1px 0px #f6f4f4;
+	
+}
+
+#content h2 {
+	font-weight: normal;
+	text-shadow: 0px 1px 0px #f6f4f4;
+
+}
+
+#content form {
+	width: 300px;
+	padding: 40px;
+	background: #b7b5b5;
+	text-shadow: 0px 1px 0px #f6f4f4;
+	-webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#content form label {
+	display: block;
+	padding: 5px;
+	text-shadow: 0px 1px 0px #f6f4f4;
+}
+
+#content form input.required {
+	padding: 5px;
+	border: 1px solid #000;
+	width: 270px;
+	text-shadow: 0px 1px 0px #f6f4f4;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 1px 0px rgba(255,255,255,.3);
+	box-shadow: 0px 1px 0px rgba(255,255,255,.3);
+
+}
+
+#content form input.button {
+	background: #466eb8;
+	margin-top: 15px;
+	padding: 5px;
+	border: 1px solid #000;
+	width: 100px;
+	color: #fff;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 1px 0px rgba(255,255,255,.5);
+	box-shadow: 0px 1px 0px rgba(255,255,255,.5);
+	text-shadow: 0px -1px 0px rgba(0,0,0,.5);
+	cursor: pointer;
+}
+.lead {
+	font-weight: normal;
+	font-size: 35px;
+	text-shadow: 0px 1px 0px #f6f4f4;
+}
+
+
+
